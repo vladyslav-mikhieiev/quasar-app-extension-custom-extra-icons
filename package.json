@@ -1,0 +1,42 @@
+{
+  "name": "quasar-app-extension-custom-extra-icons",
+  "version": "1.0.0",
+  "description": "Custom Extra SVG icons for Quasar Framework",
+  "author": "Vladyslav Mikhieiev <vladislav.mikheev@icloud.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/converter/index.js ../../src/test-icons myPrefix --dist=tmp"
+  },
+  "keywords": [
+    "quasar",
+    "extra",
+    "icons",
+    "converter",
+    "svg",
+    "quasar-app-extension",
+    "flattening"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": "https://github.com/vladyslav-mikhieiev/quasar-app-extension-custom-extra-icons/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladyslav-mikhieiev/quasar-app-extension-custom-extra-icons.git"
+  },
+  "homepage": "https://github.com/vladyslav-mikhieiev/quasar-app-extension-custom-extra-icons",
+  "dependencies": {
+    "@xmldom/xmldom": "^0.9.8",
+    "fs-extra": "^11.3.0",
+    "minimist": "^1.2.8",
+    "svgo": "^3.3.2",
+    "tinyglobby": "^0.2.12"
+  },
+  "engines": {
+    "node": ">= 12.2.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  }
+}

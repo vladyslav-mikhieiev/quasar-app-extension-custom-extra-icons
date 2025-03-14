@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+.git/
+test-icons/
+tmp/
+*.log
+.gitignore
+.npmignore
